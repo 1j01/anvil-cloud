@@ -1,0 +1,54 @@
+
+.script {
+	width: 100%;
+	min-height: 100px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.script-header {
+	position: relative;
+}
+.script-name {
+	width: 100%;
+	width: calc(100% - 8px);
+}
+.script-delete {
+	//float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.editor-container {
+	//height: 200px;
+	height: auto;
+}
+
+.firepad,
+.ace_editor,
+.editor-container {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	overflow: hidden;
+}
+
+.powered-by-firepad {
+	display: none !important;
+}
+
+
+
+
+
+.removing {
+	pointer-events: none;
+}
+
+html, body, .script, .script-header, button {
+	user-select: none;
+	-webkit-user-select: none;
+}

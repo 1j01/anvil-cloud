@@ -1,0 +1,53 @@
+
+html, body {
+	background: white;
+}
+
+.script {
+	background: #dfdfdf;
+	color: black;
+}
+.script-name {
+	color: gray;
+	background: rgba(255, 255, 255, 0.8);
+	border: 1px solid gray;
+	border-right: 0;
+	opacity: 0.7;
+	//transition: padding .2s ease-in-out;
+}
+/*.script-name:hover,*/
+.script-name:active,
+.script-name:focus {
+	opacity: 1;
+	//padding-left: 8px;
+}
+
+button {
+	background: white;
+	color: black;
+	border: 1px solid gray;
+	border-bottom: 2px solid gray;
+	
+	position: relative;
+	top: 0;
+}
+button:active {
+	border-bottom: 1px solid gray;
+	top: 1px;
+}
+
+
+.script,
+.script-name,
+button {
+	border-radius: 4px;
+}
+
+
+
+::selection {
+	background: #BDD5FC; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	background: #BDD5FC; /* Gecko Browsers */
+}

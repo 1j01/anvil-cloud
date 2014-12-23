@@ -1,0 +1,40 @@
+
+.script-name {
+	color: white;
+	background: black;
+	background: rgba(0, 0, 0, 0.4);
+	
+	background: -moz-linear-gradient(left, rgba(0,0,0,0.65) 1%, rgba(0,0,0,0.65) 29%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(1%,rgba(0,0,0,0.65)), color-stop(29%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0.65) 1%,rgba(0,0,0,0.65) 29%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(0,0,0,0.65) 1%,rgba(0,0,0,0.65) 29%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(0,0,0,0.65) 1%,rgba(0,0,0,0.65) 29%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(0,0,0,0.65) 1%,rgba(0,0,0,0.65) 29%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+
+button {
+	background: #1e1e1e;
+	color: white;
+	border: 1px solid black;
+	border-bottom: 2px solid black;
+	
+	position: relative;
+	top: 0;
+	bottom: 0;
+}
+button:active {
+	border-bottom: 1px solid black;
+	top: 1px;
+}
+
+::-webkit-scrollbar{width:5px;height:5px;background:#000}
+::-webkit-scrollbar-thumb{background:#555}
+::-webkit-scrollbar-thumb:hover{background:#777}
+
+::selection {
+	background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	background: #ffb7b7; /* Gecko Browsers */
+}

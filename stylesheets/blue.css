@@ -1,0 +1,17 @@
+
+html {
+	/*padding-bottom: 700px;
+	background-color: #1E3B77;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Anvil_shaped_cumulus_panorama_edit_crop.jpg/1920px-Anvil_shaped_cumulus_panorama_edit_crop.jpg);
+	*/
+	padding-bottom: 700px;
+	background-color: #838597;
+	background-image: url(img/Cumulonimbus_incus_0x838597.png);
+	
+	background-position: 50% bottom;
+	background-repeat: no-repeat;
+	
+}
+body {
+	background: transparent;
+}

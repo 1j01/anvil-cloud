@@ -1,0 +1,6 @@
+
+# node/npm stuff
+node_modules/
+
+# npm-debug.log (and any other logs)
+*.log
