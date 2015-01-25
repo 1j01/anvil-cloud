@@ -27,9 +27,9 @@ Continuance: RedHat Cloud at least has aggressive *continuance*, restarting your
 
 https://en.wikipedia.org/wiki/Anvil_cloud
 
-"high level"? "high level" Write high level scripts (or "accessories")
+"high level"? Write "high level" scripts (or "accessories")
 
-"Anvil"? -> ...
+"Anvil"?
 
 ### Codesmithing
 
